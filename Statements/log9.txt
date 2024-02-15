@@ -1,0 +1,1136 @@
+Program state
+Id: 8
+Exe Stack: (v=0;((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10)))) int v  
+Sym Table:  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (v=0;((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10)))) int v  
+Sym Table:  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (v=0;((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10))))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (v=0;((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10))))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: ((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10))) v=0  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: ((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10))) v=0  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: ((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10)))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: ((while (v<3) (fork( (print(v);v=v+1)) ;v=v+1));(sleep(5);print(v*10)))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-1  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-1  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-0  
+Output Console:  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: v=v+1  
+Sym Table: v-0  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack: v=v+1  
+Sym Table: v-0  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-2  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-2  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-1  
+Output Console: 0  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: v=v+1  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) (fork( (print(v);v=v+1)) ;v=v+1)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack: v=v+1  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1 fork( (print(v);v=v+1))   
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1)) v=v+1  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: (print(v);v=v+1)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-3  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10)) (while (v<3) (fork( (print(v);v=v+1)) ;v=v+1))  
+Sym Table: v-3  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: v=v+1 print(v)  
+Sym Table: v-2  
+Output Console: 0 1  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10))  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: v=v+1  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: (sleep(5);print(v*10))  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack: v=v+1  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(5)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(5)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(4)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(4)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(3)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(3)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(2)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(2)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(1)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(1)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(0)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10) sleep(0)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack: print(v*10)  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 16
+Exe Stack:  
+Sym Table: v-1  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 17
+Exe Stack:  
+Sym Table: v-2  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+
+Program state
+Id: 18
+Exe Stack:  
+Sym Table: v-3  
+Output Console: 0 1 2 30  
+Heap:  
+File table:  
+

@@ -1,0 +1,702 @@
+Program state
+Id: 8
+Exe Stack: (int w;(v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))))) int v  
+Sym Table:   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (int w;(v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))))) int v  
+Sym Table:   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (int w;(v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))))  
+Sym Table: v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (int w;(v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))))  
+Sym Table: v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))) int w  
+Sym Table: v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))) int w  
+Sym Table: v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))))  
+Sym Table: v-0 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (v=2;(w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))))  
+Sym Table: v-0 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))) v=2  
+Sym Table: v-0 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))) v=2  
+Sym Table: v-0 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))  
+Sym Table: v-2 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (w=5;(call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )))  
+Sym Table: v-2 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )) w=5  
+Sym Table: v-2 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )) w=5  
+Sym Table: v-2 w-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))  
+Sym Table: v-2 w-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (call sum[v*10, w];(print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ))  
+Sym Table: v-2 w-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) call sum[v*10, w]  
+Sym Table: v-2 w-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) call sum[v*10, w]  
+Sym Table: v-2 w-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (int v;(v=a+b;print(v)))  
+Sym Table: v-2 w-5  a-20 b-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (int v;(v=a+b;print(v)))  
+Sym Table: v-2 w-5  a-20 b-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (v=a+b;print(v)) int v  
+Sym Table: v-2 w-5  a-20 b-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (v=a+b;print(v)) int v  
+Sym Table: v-2 w-5  a-20 b-5   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (v=a+b;print(v))  
+Sym Table: v-2 w-5  a-20 b-5 v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return (v=a+b;print(v))  
+Sym Table: v-2 w-5  a-20 b-5 v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return print(v) v=a+b  
+Sym Table: v-2 w-5  a-20 b-5 v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return print(v) v=a+b  
+Sym Table: v-2 w-5  a-20 b-5 v-0   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return print(v)  
+Sym Table: v-2 w-5  a-20 b-5 v-25   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return print(v)  
+Sym Table: v-2 w-5  a-20 b-5 v-25   
+Output Console:  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return  
+Sym Table: v-2 w-5  a-20 b-5 v-25   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) ) return  
+Sym Table: v-2 w-5  a-20 b-5 v-25   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )  
+Sym Table: v-2 w-5   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: (print(v);fork( (call product[v, w];fork( call sum[v, w]) )) )  
+Sym Table: v-2 w-5   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: fork( (call product[v, w];fork( call sum[v, w]) ))  print(v)  
+Sym Table: v-2 w-5   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: fork( (call product[v, w];fork( call sum[v, w]) ))  print(v)  
+Sym Table: v-2 w-5   
+Output Console: 25  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: fork( (call product[v, w];fork( call sum[v, w]) ))   
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack: fork( (call product[v, w];fork( call sum[v, w]) ))   
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: (call product[v, w];fork( call sum[v, w]) )  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: (call product[v, w];fork( call sum[v, w]) )  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  call product[v, w]  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  call product[v, w]  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (int v;(v=a*b;print(v)))  
+Sym Table: v-2 w-5  a-2 b-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (int v;(v=a*b;print(v)))  
+Sym Table: v-2 w-5  a-2 b-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (v=a*b;print(v)) int v  
+Sym Table: v-2 w-5  a-2 b-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (v=a*b;print(v)) int v  
+Sym Table: v-2 w-5  a-2 b-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (v=a*b;print(v))  
+Sym Table: v-2 w-5  a-2 b-5 v-0   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return (v=a*b;print(v))  
+Sym Table: v-2 w-5  a-2 b-5 v-0   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return print(v) v=a*b  
+Sym Table: v-2 w-5  a-2 b-5 v-0   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return print(v) v=a*b  
+Sym Table: v-2 w-5  a-2 b-5 v-0   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return print(v)  
+Sym Table: v-2 w-5  a-2 b-5 v-10   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return print(v)  
+Sym Table: v-2 w-5  a-2 b-5 v-10   
+Output Console: 25 2  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return  
+Sym Table: v-2 w-5  a-2 b-5 v-10   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])  return  
+Sym Table: v-2 w-5  a-2 b-5 v-10   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])   
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack: fork( call sum[v, w])   
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 10
+Exe Stack: call sum[v, w]  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+
+Program state
+Id: 10
+Exe Stack: call sum[v, w]  
+Sym Table: v-2 w-5   
+Output Console: 25 2 10  
+Heap:  
+File table:  
+Proc Table: {product=[a, b]=(int v;(v=a*b;print(v))), sum=[a, b]=(int v;(v=a+b;print(v)))}
+

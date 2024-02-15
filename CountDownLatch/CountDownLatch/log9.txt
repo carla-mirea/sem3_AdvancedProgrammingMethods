@@ -1,0 +1,1962 @@
+Program state
+Id: 8
+Exe Stack: (Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))) Ref(int) v1  
+Sym Table:  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))) Ref(int) v1  
+Sym Table:  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))))  
+Sym Table: v1-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))))  
+Sym Table: v1-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))) Ref(int) v2  
+Sym Table: v1-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))) Ref(int) v2  
+Sym Table: v1-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))  
+Sym Table: v1-(0,int) v2-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))  
+Sym Table: v1-(0,int) v2-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))) Ref(int) v3  
+Sym Table: v1-(0,int) v2-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))) Ref(int) v3  
+Sym Table: v1-(0,int) v2-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))  
+Sym Table: v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))))  
+Sym Table: v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))) int cnt  
+Sym Table: v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))) int cnt  
+Sym Table: v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))  
+Sym Table: cnt-0 v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))))  
+Sym Table: cnt-0 v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))) new(v1, 2)  
+Sym Table: cnt-0 v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))) new(v1, 2)  
+Sym Table: cnt-0 v1-(0,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap:  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v2, 3);(new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))) new(v2, 3)  
+Sym Table: cnt-0 v1-(1,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))) new(v2, 3)  
+Sym Table: cnt-0 v1-(1,int) v2-(0,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2 2-3  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (new(v3, 4);(newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2 2-3  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))) new(v3, 4)  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2 2-3  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))) new(v3, 4)  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(0,int)  
+Output Console:  
+Heap: 1-2 2-3  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (newLatch(cnt, rH(v2));(fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))) newLatch(cnt, rH(v2))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100))))) newLatch(cnt, rH(v2))  
+Sym Table: cnt-0 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {}
+
+Program state
+Id: 8
+Exe Stack: (fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))) ;(await(cnt);(print(100);(countDown(cnt);print(100)))))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (await(cnt);(print(100);(countDown(cnt);print(100)))) fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (await(cnt);(print(100);(countDown(cnt);print(100)))) fork( (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (await(cnt);(print(100);(countDown(cnt);print(100))))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (await(cnt);(print(100);(countDown(cnt);print(100))))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )) wH(v1,rH(v1)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )) wH(v1,rH(v1)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-2 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (print(rH(v1));(countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ) print(rH(v1))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) ) print(rH(v1))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console:  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: (countDown(cnt);fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))) )  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))  countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))  countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=3}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))  print(9)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))  print(9)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack: fork( (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )) wH(v2,rH(v2)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )) wH(v2,rH(v2)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-3 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (print(rH(v2));(countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ) print(rH(v2))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) ) print(rH(v2))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: (countDown(cnt);fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))) )  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))  countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))  countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=2}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))  print(10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))  print(10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack: fork( (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))   
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (print(rH(v3));countDown(cnt)) wH(v3,rH(v3)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (print(rH(v3));countDown(cnt)) wH(v3,rH(v3)*10)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-4  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (print(rH(v3));countDown(cnt))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: (print(rH(v3));countDown(cnt))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: countDown(cnt) print(rH(v3))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: countDown(cnt) print(rH(v3))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 11
+Exe Stack: countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=1}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack: print(11)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100))) await(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack: print(11)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100)))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (print(100);(countDown(cnt);print(100)))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (countDown(cnt);print(100)) print(100)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (countDown(cnt);print(100)) print(100)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (countDown(cnt);print(100))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: (countDown(cnt);print(100))  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100) countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100) countDown(cnt)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100) print(8)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100) print(8)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack: print(100)  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 8
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 9
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 10
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
+Program state
+Id: 11
+Exe Stack:  
+Sym Table: cnt-1 v1-(1,int) v2-(2,int) v3-(3,int)  
+Output Console: 20 9 30 10 40 11 100 8 100  
+Heap: 1-20 2-30 3-40  
+File table:  
+Latch Table: {1=0}
+
